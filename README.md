@@ -1,34 +1,39 @@
 # Name
 
-write-your-name
+Brian Newsom
 
 # How many points have you earned?
 
-0/100
+100/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+4
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+Monday (I did all the d3 stuff), but I started the others Wednesday
+as soon as I could after they were posted.
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+Figuring out mongo challenge 3. I'm not sure we had any context.  It could've been done one way I know
+(.distinct()) but that didn't match your format.  I couldn't figure anything out until I scoured the internet
+for a while to match your solution.  The aggregate was cool though.
 
 # Show and tell (6 points)
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[One Path for All Links](http://bl.ocks.org/mbostock/1579132)
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+1.) Ability to act on data through dragging
+2.) How to make objects all interconnected when dragged and have physics like feel
+as in the included viz.
 
 # MongoDB III
 
@@ -36,39 +41,39 @@ fill-in-your-answer
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](mongodb/cp1.png?raw=true)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({"donor" : "Belgium"},{"recipient" :1,"disbursement_amount" : 1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/ch1.png?raw=true)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({"biodiversity":{$gt:0}},{"recipient" : 1, "disbursement_amout" : 1 "title" : 1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/ch2.png?raw=true)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand({ distinct: "aiddata", key : "flow_type"})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/ch3.png?raw=true)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.runCommand({ distinct: "aiddata", key : "flow_type", query : { "disbursement_amount" : {$gt : 100000000}}})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/ch4.png?raw=true)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aiddata.aggregate([{$match: {donor : "Belgium"}}. {$group : { _id : "$year", total: {$sum : "$disbursement_amount"}}}])
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/ch5.png?raw=true)
 
 # Machine Learning (II)
 
@@ -76,23 +81,34 @@ fill-in-your-answer
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml/ch1a.png?raw=true)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml/ch1b.png?raw=true)
 
-### c. (3 points) 
+### c. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml/ch1c.png?raw=true)
 
-### d. (3 points) 
+### d. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml/ch1d.png?raw=true)
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+My analysis is meant to examine when the actual game was being played
+(e.g. users clicking for kisses or whatever), first I examined the number of touches
+vs. the time since start, searching for gaps, which seem to occur
+between 200,000 ms and 250,000 ms, and 400,000 and 450,000 ms.
+![screenshot](ml/ch2a.png?raw=true)
+Then, just to ensure people's apps didn't crash at those points and the
+data is just showing when people stopped playing, I examined the
+number of records (there shouldn't be any records after the app is quit).
+![screenshot](ml/ch2b.png?raw=true)
+This image shows mostly as expected, especially the first and last gaps,
+signaling that this is when the users are not playing the game - at least
+not touching the screen consistently across users.
 
 # D3 (V)
 
@@ -100,43 +116,44 @@ fill-in-your-answer
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/cp1.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/cp1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/cp2.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/cp2.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/cp3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/cp3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/cp4.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/cp4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3/ch1.png?raw=true)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3/ch2.png?raw=true)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3/ch3.png?raw=true)
 
 ### 4. (10 points)
-
-![screenshot](screenshot.png?raw=true)
-
+# What businesses in NY have a 4 star or greater rating?
+![screenshot](d3/ch4.png?raw=true)
+It seems this dataset only contains one, a personal favorite of mine:
+"Mike Todd's Raw Body Boot Camp"
