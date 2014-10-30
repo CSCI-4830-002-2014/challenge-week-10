@@ -4,7 +4,7 @@ Brian Newsom
 
 # How many points have you earned?
 
-0/100
+75/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -14,21 +14,24 @@ fill-in-your-answer
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+Monday (I did all the d3 stuff), but I started the others Wednesday
+as soon as I could after they were posted.
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+Finishing the hackathon... It was a toughie and I wasn't sure on a lot of things.
 
 # Show and tell (6 points)
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[One Path for All Links](http://bl.ocks.org/mbostock/1579132)
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+1.) Ability to act on data through dragging
+2.) How to make objects all interconnected when dragged and have physics like feel
+as in the included viz.
 
 # MongoDB III
 
