@@ -1,10 +1,10 @@
 # Name
 
-write-your-name
+Chris Wittenberg
 
 # How many points have you earned?
 
-0/100
+26/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -14,21 +14,25 @@ fill-in-your-answer
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+Tuesday
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+Getting my data into MongoDB.
 
 # Show and tell (6 points)
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[Inequality and the Human Development Index](http://www.visualizing.org/full-screen/401461)
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+I would like to learn more about:
+
+1) How to create a visualization that follows real-time data (if at all possible).
+
+2) How to get D3 and SQL to play together. 
 
 # MongoDB III
 
@@ -100,27 +104,27 @@ fill-in-your-answer
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](D3Checkpoint1.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](D3checkpoint5.1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](D3Checkpoint2.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](D3checkpoint5.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](D3Checkpoint3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](D3checkpoint6.1.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](D3Checkpoint4.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](D3checkpoint6.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
