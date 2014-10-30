@@ -68,9 +68,9 @@ Two features I would like to learn are:
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aiddata.aggregate( [ {$match: { 'donor' : 'Belgium'} },{$group: {_id : "$year",total: { $sum : "$disbursement_amount" } } } ] )
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](m-challenge-5.png)
 
 # Machine Learning (II)
 

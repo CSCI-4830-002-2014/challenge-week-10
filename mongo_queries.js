@@ -9,4 +9,6 @@ db.runCommand({distinct: 'aiddata',
 				query: {"disbursement_amount" : {$gt : 100000000}, "commitment_amount_currency" : "USD" }
 			})
 
-db.aiddata.aggregate([ { $match { 'donor' : 'Belgium'} }, { $group : {}}])
+db.aiddata.aggregate( [ {$match: { 'donor' : 'Belgium'} },{$group: {_id : "$year",total: { $sum : "$disbursement_amount" } } } ] )
+
+
