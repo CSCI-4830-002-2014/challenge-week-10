@@ -4,13 +4,13 @@ Brian Newsom
 
 # How many points have you earned?
 
-75/100
+100/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+4
 
 # When did you first start working on this week's learning challenges?
 
@@ -19,7 +19,9 @@ as soon as I could after they were posted.
 
 # What is the most difficult part about this week's challenge?
 
-Finishing the hackathon... It was a toughie and I wasn't sure on a lot of things.
+Figuring out mongo challenge 3. I'm not sure we had any context.  It could've been done one way I know
+(.distinct()) but that didn't match your format.  I couldn't figure anything out until I scoured the internet
+for a while to match your solution.  The aggregate was cool though.
 
 # Show and tell (6 points)
 
@@ -140,16 +142,18 @@ not touching the screen consistently across users.
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3/ch1.png?raw=true)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3/ch2.png?raw=true)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3/ch3.png?raw=true)
 
 ### 4. (10 points)
-
-![screenshot](screenshot.png?raw=true)
+# What businesses in NY have a 4 star or greater rating?
+![screenshot](d3/ch4.png?raw=true)
+It seems this dataset only contains one, a personal favorite of mine:
+"Mike Todd's Raw Body Boot Camp"
