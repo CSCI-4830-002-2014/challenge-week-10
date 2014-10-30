@@ -1,6 +1,6 @@
 # Name
 
-write-your-name
+Brian Newsom
 
 # How many points have you earned?
 
@@ -76,23 +76,34 @@ fill-in-your-answer
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml/ch1a.png?raw=true)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml/ch1b.png?raw=true)
 
 ### c. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml/ch1c.png?raw=true)
 
 ### d. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml/ch1d.png?raw=true)
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+My analysis is meant to examine when the actual game was being played
+(e.g. users clicking for kisses or whatever), first I examined the number of touches
+vs. the time since start, searching for gaps, which seem to occur
+between 200,000 ms and 250,000 ms, and 400,000 and 450,000 ms.
+![screenshot](ml/ch2a.png?raw=true)
+Then, just to ensure people's apps didn't crash at those points and the
+data is just showing when people stopped playing, I examined the
+number of records (there shouldn't be any records after the app is quit).
+![screenshot](ml/ch2b.png?raw=true)
+This image shows mostly as expected, especially the first and last gaps,
+signaling that this is when the users are not playing the game - at least
+not touching the screen consistently across users.
 
 # D3 (V)
 
@@ -100,27 +111,27 @@ fill-in-your-answer
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/cp1.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/cp1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/cp2.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/cp2.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/cp3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/cp3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/cp4.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/cp4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
