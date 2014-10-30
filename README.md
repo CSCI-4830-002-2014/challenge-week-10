@@ -4,7 +4,7 @@ Chris Wittenberg
 
 # How many points have you earned?
 
-41/100
+70/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -40,39 +40,42 @@ I would like to learn more about:
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](MCheckpoint.png?raw=true)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({"donor": "Belgium", "disbursement_amount": {$gt 0}}, {"recipient": 1, "disbursement_amount": 1});
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](MChallenge1.png?raw=true)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({"biodiversity": 0}, {"recipient": 1, "disbursement_amount": 1, "title": 1});
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](MChallenge2.png?raw=true)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand(distinct: "aiddata", key: "flow_type");
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](MChallenge3.png?raw=true)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct: "aiddata", key: "flow_type", query: {"disbursement_amount": {$gt: 100000000} } });
 
-![screenshot](screenshot.png?raw=true)
+"n" is the number of records that have one of these types. "n" is much smaller for the query in challnege 4 than in challenge 3 because not many of the records have disbursement amounts over $100,000,000.00 .
+
+![screenshot](MChallenge4.png?raw=true)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aiddata.aggregate([{$match: {"donor": "Belgium"}}, {$group: { _id: "$year", total: {$sum: "$disbursement_amount"}}}]);
 
-![screenshot](screenshot.png?raw=true)
+
+![screenshot](MChallenge5.png?raw=true)
 
 # Machine Learning (II)
 
