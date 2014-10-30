@@ -1,6 +1,6 @@
 # Name
 
-write-your-name
+Alexander Tsankov
 
 # How many points have you earned?
 
@@ -14,7 +14,7 @@ fill-in-your-answer
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+10/29/14
 
 # What is the most difficult part about this week's challenge?
 
@@ -24,11 +24,13 @@ fill-in-your-answer
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[Trade Deficit Graph](http://www.brightpointinc.com/interactive/ustrade/index.html?source=d3js)
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+Two features I would like to learn are: 
+	- Learning more about prebuilt graphing libraries. 
+	- Different types of charts besides line or scatter. 
 
 # MongoDB III
 
@@ -36,33 +38,33 @@ fill-in-your-answer
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](m-checkpoint-1.png)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({'donor' : 'Belgium' , 'disbursement_amount': {$ne: ''}},{"disbursement_amount":-1, "recipient":-1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](m-challenge-1.png)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({'biodiversity' : {$in : [1,2] }},{"disbursement_amount":-1, "recipient":-1, "title":-1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](m-challenge-2.png)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct: 'aiddata', key: 'flow_type'})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](m-challenge-3.png)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct: 'aiddata', key: 'flow_type',query: {"disbursement_amount" : {$gt : 100000000}, "commitment_amount_currency" : "USD" }})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](m-challenge-4.png)
 
 # 5. (5 points)
 
