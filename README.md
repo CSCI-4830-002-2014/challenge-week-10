@@ -36,39 +36,39 @@ fill-in-your-answer
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](mongodb/cp1.png?raw=true)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({"donor" : "Belgium"},{"recipient" :1,"disbursement_amount" : 1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/ch1.png?raw=true)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({"biodiversity":{$gt:0}},{"recipient" : 1, "disbursement_amout" : 1 "title" : 1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/ch2.png?raw=true)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand({ distinct: "aiddata", key : "flow_type"})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/ch3.png?raw=true)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.runCommand({ distinct: "aiddata", key : "flow_type", query : { "disbursement_amount" : {$gt : 100000000}}})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/ch4.png?raw=true)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aiddata.aggregate([{$match: {donor : "Belgium"}}. {$group : { _id : "$year", total: {$sum : "$disbursement_amount"}}}])
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/ch5.png?raw=true)
 
 # Machine Learning (II)
 
@@ -82,11 +82,11 @@ fill-in-your-answer
 
 ![screenshot](screenshot.png?raw=true)
 
-### c. (3 points) 
+### c. (3 points)
 
 ![screenshot](screenshot.png?raw=true)
 
-### d. (3 points) 
+### d. (3 points)
 
 ![screenshot](screenshot.png?raw=true)
 
@@ -139,4 +139,3 @@ fill-in-your-answer
 ### 4. (10 points)
 
 ![screenshot](screenshot.png?raw=true)
-
