@@ -78,23 +78,26 @@ Two features I would like to learn are:
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml-challenge-1a.png)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml-challenge-1b.png)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml-challenge-1c.png)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml-challenge-1d.png)
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+One way to use Tableau would be to quickly identify who hasn't followed instructions. The instructions said that we needed to hold the phone, so we should see some variance between the x,y,z axis. In the chart, we can see that student 13 does not have this variance and we can safely assume that they placed their phone on the table for the duration of the experiment. We can also glean information about the most comfortable ergonomic position for subjects to hold the phone as well. 
+
+![screenshot](ml-challenge-2.png)
+
 
 # D3 (V)
 
@@ -102,9 +105,9 @@ Two features I would like to learn are:
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](d3-checkpoint-1.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint-1.html)
 
 # 2. (5 points)
 
