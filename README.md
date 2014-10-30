@@ -4,7 +4,7 @@ Chris Wittenberg
 
 # How many points have you earned?
 
-26/100
+41/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -130,17 +130,17 @@ I would like to learn more about:
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](D3Challenge1.png?raw=true)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](D3Challenge2.png?raw=true)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](D3Challenge3.png?raw=true)
 
 ### 4. (10 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](D3Challenge4.png?raw=true)
 
