@@ -4,7 +4,7 @@ Chris Wittenberg
 
 # How many points have you earned?
 
-70/100
+82/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -83,19 +83,19 @@ I would like to learn more about:
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](TChallenge1.png?raw=true)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](TChallenge2.png?raw=true)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](TChallenge3.png?raw=true)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](TChallenge4.png?raw=true)
 
 ## Challenge 2 (8 points)
 
