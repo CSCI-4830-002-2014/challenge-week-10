@@ -4,7 +4,7 @@ Chris Wittenberg
 
 # How many points have you earned?
 
-82/100
+90/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -99,7 +99,15 @@ I would like to learn more about:
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+The data from challenge 1a seems to suggest that the number of pitch by degrees is skewed to the left; that is, the higher the pitch, the more number of touch events at that pitch there are. 
+
+![screenshot](T21Challenge.png?raw=true)
+
+According to this graph, it seems that the average pitch increses as the rotation vector x increases. average pitch also seems higher as the rotation vecto y increases. 
+
+![screenshot](T22Challenge.png?raw=true)
+
+According to this scatterplot, it seems that the roll degree is centered mostly on -1.55 degrees. It seems that, around this centerpoint, the average pitch is the lowest. The average pitch is higher when you move away from the center (especially on the lower end). The interesting exception is at the 1000K to 1100K mark; the average pitch is quite high here arund the average roll degree of -1.55 degrees. 
 
 # D3 (V)
 
