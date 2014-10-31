@@ -103,7 +103,7 @@ The data from challenge 1a seems to suggest that the number of pitch by degrees 
 
 ![screenshot](T21Challenge.png?raw=true)
 
-According to this graph, it seems that the average pitch increses as the rotation vector x increases. average pitch also seems higher as the rotation vecto y increases. 
+According to this graph, it seems that the average pitch increses as the rotation vector x increases. average pitch also seems higher as the rotation vector y increases. Also, the vector y seems to very negative, and the distribution of these x-y rotation vectors is in the shape of the bell curve.  
 
 ![screenshot](T22Challenge.png?raw=true)
 
