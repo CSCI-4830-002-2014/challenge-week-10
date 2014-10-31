@@ -12,3 +12,5 @@ db.runCommand({distinct: 'aiddata',
 db.aiddata.aggregate( [ {$match: { 'donor' : 'Belgium'} },{$group: {_id : "$year",total: { $sum : "$disbursement_amount" } } } ] )
 
 
+
+Rimbaud
