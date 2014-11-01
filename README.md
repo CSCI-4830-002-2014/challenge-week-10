@@ -131,15 +131,15 @@ One way to use Tableau would be to quickly identify who hasn't followed instruct
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3-challenge-1.png)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3-challenge-2.png)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3-challenge-3.png)
 
 ### 4. (10 points)
 

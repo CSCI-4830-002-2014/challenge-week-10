@@ -121,27 +121,38 @@
 							return yScale(d);
 						});
 
-				
-					 
+					var newText = svg.selectAll("text")
+								   .data(dataset)
+								   .enter()
+								   .append("text")
+								   .text(function(d) {
+								   		return d;
+								   })
+								   .attr("text-anchor", "middle")
+								   .attr("x", function(d, i) {
+								   		return xScale(i) + xScale.rangeBand() / 2;
+								   })
+								   .attr("y", function(d) {
+								   		return h - yScale(d) + 14;
+								   })
+								   .attr("font-family", "sans-serif")
+								   .attr("font-size", "11px")
+								   .attr("fill", "red");
+					
+					newText.transition()							//Initiate a transition on all elements in the update selection (all rects)
+						.duration(500)
+						.attr("x", function(d, i) {				//Set new x position, based on the updated xScale
+							return xScale(i);
+						})
+						.attr("y", function(d) {				//Set new y position, based on the updated yScale
+							return  yScale(d);
+						})
+						.attr("width", xScale.rangeBand())		
+						.attr("height", function(d) {			//Set new height value, based on the updated yScale
+							return yScale(d);
+						});
+				})
 
-
-					 var newText = svg.selectAll("text")
-					   .data(dataset)
-					   .transition()
-					   .duration(500)
-					   .text(function(d) {
-					   		return d;
-					   })
-					   .attr("x", function(d, i) {
-							return xScale(i) + xScale.rangeBand() / 2;
-					   })
-					   .attr("y", function(d) {
-							return h - yScale(d) + 14;
-					   });
-
-				});
-
-			
 		</script>
 	</body>
 </html>
