@@ -102,43 +102,43 @@ The 'n' value shows the number of total entries returned from the queries. The f
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](images/d3cp1.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3cp1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](images/d3cp2.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3cp2.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](images/d3cp3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3cp3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](d3cp4.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3cp4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](images/d3ch1.png?raw=true)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](images/d3ch2.png?raw=true)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](images/d3ch3.png?raw=true)
 
 ### 4. (10 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](images/d3ch4.png?raw=true)
 
