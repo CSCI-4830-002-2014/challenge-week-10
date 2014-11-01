@@ -143,5 +143,7 @@ One way to use Tableau would be to quickly identify who hasn't followed instruct
 
 ### 4. (10 points)
 
-![screenshot](screenshot.png?raw=true)
+For this challenge, I changed the color of the dots to represent the rating in stars of the resteraunt. It if it's one star it is red, 2 stars for blue, 3 for gold, 4 for pink, and 5 for purple. 
+
+![screenshot](d3-challenge-4.png)
 
