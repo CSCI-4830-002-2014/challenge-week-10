@@ -38,13 +38,17 @@
                 { key: 17, value: 18 },
                 { key: 18, value: 23 },
                 { key: 19, value: 25 } ];
+
+                var key = function(d) {
+				    return d.key;
+				};
 			
 			var xScale = d3.scale.ordinal()
 			.domain(d3.range(dataset.length))
 			.rangeRoundBands([0, w], 0.05);
 
 			var yScale = d3.scale.linear()
-			.domain([0, d3.max(dataset)])
+			.domain([0, d3.max(dataset, function(d) { return d.value; })])
 			.range([0, h]);
 			
 			//Create SVG element
@@ -55,7 +59,7 @@
 
 			//Create bars
 			svg.selectAll("rect")
-			.data(dataset)
+			.data(dataset, key)
 			.enter()
 			.append("rect")
 			.attr("x", function(d, i) {
@@ -74,7 +78,7 @@
 
 			//Create labels
 			svg.selectAll("text")
-			.data(dataset)
+			.data(dataset, key)
 			.enter()
 			.append("text")
 			.text(function(d) {
@@ -101,18 +105,18 @@
 					dataset.shift();					
 					//Update scale domains
 					xScale.domain(d3.range(dataset.length));	//Recalibrate the x scale domain, given the new length of dataset
-					yScale.domain([0, d3.max(dataset)]);		//Recalibrate the y scale domain, given the new max value in dataset
+					yScale.domain([0, d3.max(dataset, function(d) { return d.value; })]);		//Recalibrate the y scale domain, given the new max value in dataset
 
 					//Select…
 					var bars = svg.selectAll("rect")			//Select all bars
-						.data(dataset);							//Re-bind data to existing bars, return the 'update' selection
+						.data(dataset, key);							//Re-bind data to existing bars, return the 'update' selection
 																//'bars' is now the update selection
 
 
-					var texts = svg.selectAll("text").data(dataset);
+					var texts = svg.selectAll("text").data(dataset, key);
 					//Enter…
-					bars.exit().transition().duration(500).attr("x", w).remove();
-					texts.exit().transition().duration(500).attr("x", w).remove();
+					bars.exit().transition().duration(500).attr("x", -xScale.rangeBand()).remove();
+					texts.exit().transition().duration(500).attr("x", -xScale.rangeBand()).remove();
 
 					//Update…
 					bars.transition()							//Initiate a transition on all elements in the update selection (all rects)
