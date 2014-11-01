@@ -6,7 +6,6 @@ Alexia Newgord
 
 35/100
 
-(Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # How many hours have you spent on this?
 
@@ -45,6 +44,7 @@ fill-in-your-answer
 # 1. (5 points)
 
 > db.aiddata.find({"donor":"Belgium"},{"recipient":1, 'commitment_amount':1})
+
 There were many undefined disbursements, so I thought 'commitment_amount' would be more interesting.
 
 ![screenshot](mc1.png?raw=true)
@@ -97,7 +97,9 @@ There were many undefined disbursements, so I thought 'commitment_amount' would 
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+I thought it would interesting to see how this data evolved over time, since our interaction with the phone would have changed depending on the activity.  As you can see in the visualization below, there are four spikes in activity (SUM(Touch Label)), which suggest when the interactive games were occurring, as opposed to filling out forms.  Although I'm not quite sure what pitch and roll mean, I thought it was very interesting that the pitch (color value), increased during the third activity, and the roll (thickness), notably decreased during the third activity.  For me, this was when the glitches occurred and these results may suggest how users respond to glitchy software behavior.
+
+![screenshot](c2.png?raw=true)
 
 # D3 (V)
 
