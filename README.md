@@ -10,7 +10,7 @@ Justin McBride
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+2.5
 
 # When did you first start working on this week's learning challenges?
 
@@ -18,17 +18,19 @@ Friday night
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+None
 
 # Show and tell (6 points)
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[Walmart locations all hexed up](http://indiemaps.github.io/hexbin-js/tests/walmart.html)
+
+The visualization shows an overview + focus view of all Walmarts in the USA. Hexes can be moused over for a focus view.
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+Collision detection and zooming.
 
 # MongoDB III
 
@@ -78,23 +80,25 @@ The 'n' value shows the number of total entries returned from the queries. The f
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](images/mlch1a.png?raw=true)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](images/mlch1b.png?raw=true)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](images/mlch1c.png?raw=true)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](images/mlch1d.png?raw=true)
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+![screenshot](images/mlch2.png?raw=true)
+
+This visualization shows the ways that users hold their phones over the course of them using the app. On the horizontal axis is the amount of time that has passed, and the dots up the vertical axis indicate the average roll of the device. Most people hold hand-held screens parallel to their eyes, because it's easier to see the information on the screen that way, and this should be a decent indicator of the way their heads roll over time. Most of the time it averages out to a flat plane that they're holding their phone on, but around the time that they encounter the intentionally bugged screen, it seems that users move around more. The size of the dots represent the proximity of the device to the user, and it seems that during the videos, uers pull the device closer to their faces to focus more intently on the video. This makes sense. The more green a dot is, the more light there is coming into the device's light sensor. I'm having trouble finding an interpretation for the measure that will correlate with the other data.
 
 # D3 (V)
 
