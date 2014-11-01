@@ -124,9 +124,9 @@ This visualization shows the ways that users hold their phones over the course o
 
 # 4. (5 points)
 
-![image](d3cp4.png?raw=true)
+![image](images/d3cp4.png?raw=true)
 
-[checkpoint](images/d3cp4.html)
+[checkpoint](d3cp4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
