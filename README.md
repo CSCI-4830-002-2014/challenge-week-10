@@ -38,7 +38,7 @@ Collision detection and zooming.
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](images/mongocp1.png?raw=true)
 
 ## Challenges (5 points x 5 = 25 points)
 
@@ -126,7 +126,7 @@ This visualization shows the ways that users hold their phones over the course o
 
 ![image](d3cp4.png?raw=true)
 
-[checkpoint](d3cp4.html)
+[checkpoint](images/d3cp4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
