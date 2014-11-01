@@ -1,10 +1,10 @@
 # Name
 
-write-your-name
+Justin McBride
 
 # How many points have you earned?
 
-0/100
+100/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -14,7 +14,7 @@ fill-in-your-answer
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+Friday night
 
 # What is the most difficult part about this week's challenge?
 
@@ -42,33 +42,35 @@ fill-in-your-answer
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aidata.find({'donor':'Belgium','disbursement_amount':{$gt:0}},{'recipient':1,'disbursement_amount':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](images/mongoch1.png?raw=true)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aidata.find({'biodiversity':{$ne:''},'disbursement_amount':{$gt:0}},{'recipient':1,'disbursement_amount':1,'title':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](images/mongoch2.png?raw=true)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.aidata.distinct('flow_type')
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](images/mongoch3.png?raw=true)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.aidata.distinct('flow_type',{'disbursement_amount':{$gt:100000000}})
 
-![screenshot](screenshot.png?raw=true)
+The 'n' value shows the number of total entries returned from the queries. The first search just scans all entries, but the second one is limited by the disbursement_amount query, and the results pool is significantly smaller.
+
+![screenshot](images/mongoch4.png?raw=true)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aidata.aggregate([{$match:{'donor':'Belgium'}},{$group:{_id:'$year',total:{$sum:'$disbursement_amount'}}}])
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](images/mongoch5.png?raw=true)
 
 # Machine Learning (II)
 
