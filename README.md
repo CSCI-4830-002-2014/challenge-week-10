@@ -4,7 +4,7 @@ Alexander Tsankov
 
 # How many points have you earned?
 
-0/100
+85/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -18,7 +18,7 @@ fill-in-your-answer
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+Getting the checkpoints for the d3 tutorial and doing the aggregating for the mongo query. 
 
 # Show and tell (6 points)
 
@@ -111,21 +111,21 @@ One way to use Tableau would be to quickly identify who hasn't followed instruct
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](d3-checkpoint-2.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint-2.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](d3-checkpoint-3.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint-3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](d3-checkpoint-4.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint-4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
