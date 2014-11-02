@@ -4,31 +4,32 @@ Michael Fyk
 
 # How many points have you earned?
 
-0/100
+92/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+5
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+Thursday
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+D3 Checkpoints
 
 # Show and tell (6 points)
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[Using D3 to Visualize GIS](http://www.smartjava.org/content/using-d3js-visualize-gis)
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+Mapping with D3
+Extensions/libraries for D3
 
 # MongoDB III
 
@@ -36,37 +37,39 @@ fill-in-your-answer
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](ChMongo.png)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aid.find({'donor': 'Belgium', 'disbursement_amount': {$gt:0}}, {"recipient":1, "disbursement_amount":1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](1CMongo.png)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aid.find({'biodiversity': {$ne:""}, 'disbursement_amount': {$gt:0}}, {"recipient":1, "disbursement_amount":1, "title":1, "biodiversity":1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](C2Mongo.png)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand ( { distinct: "aid", key: "flow_type" } )
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](C3Mongo.png)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.runCommand ( { distinct: "aid", key: "flow_type", query: {'disbursement_amount': {$gt:100000000}}})
 
-![screenshot](screenshot.png?raw=true)
+Respons: n refers to the number of records in a collection that match the query. The second query has a much lower n than the first because it is only counting records with a disbursement amount greater than $100,000,000
+
+![screenshot](C4Mongo.png)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aid.aggregate( [ { $match: {"donor":"Belgium"}} , {$group:{_id:"$year",total:{$sum:"$disbursement_amount"}}}])
 
 ![screenshot](screenshot.png?raw=true)
 
@@ -76,19 +79,19 @@ fill-in-your-answer
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](Ch1aTableau.png)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](Ch2bTableau.png)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](Ch2cTableau.png)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](Ch2dTableau.png)
 
 ## Challenge 2 (8 points)
 
@@ -100,43 +103,43 @@ fill-in-your-answer
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](Ch1D3.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](Ch1D3.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](Ch2D3.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](Ch2D3.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](Ch3D3.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](Ch3D3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](Ch4D3.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](Ch4D3.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](1CYelp.png)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](2CYelp.png)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](3CYelp.png)
 
 ### 4. (10 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](C4D3.png)
 
