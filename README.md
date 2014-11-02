@@ -155,3 +155,7 @@ According to this scatterplot, it seems that the roll degree is centered mostly 
 
 ![screenshot](D3Challenge4.png?raw=true)
 
+It may not look impressive, but I wanted to see how many businesses are "Good For Dancing". This is the only one in the entire Yelp Dataset:
+
+![screenshot](Proof.png?raw=true)
+
