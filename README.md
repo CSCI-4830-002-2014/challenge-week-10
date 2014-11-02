@@ -8,7 +8,7 @@ Niklas Fejes
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+6 hours
 
 # When did you first start working on this week's learning challenges?
 
@@ -16,17 +16,18 @@ Sunday
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+machine learning, challenge 2
 
 # Show and tell (6 points)
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[Multi-Line Voronoi](http://bl.ocks.org/mbostock/8033015)
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+* Using `d3.svg.line` to create plots.
+* More advanced usages of `d3.svg.axis()`, such as including units and custom labels
 
 # MongoDB III
 
@@ -78,23 +79,33 @@ the number of entries with `disbursement_amount` larger than 100'000'000.
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](screenshots/ml/challenge1a.png?raw=true)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](screenshots/ml/challenge1b.png?raw=true)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](screenshots/ml/challenge1c.png?raw=true)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](screenshots/ml/challenge1d.png?raw=true)
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+It may be interesting to know whether the precence of the bugs affects the pitch 
+of the phone. Plotting the pitch for each user vs time gives the following plots.
+
+![screenshot](screenshots/ml/challenge2.png?raw=true)
+
+In the plots above, the flat parts are the time when surveys were entered. To get a
+proper analysis of the different game stages, one would have to separate these into
+different "events". 
+
+What can be seen is that for some of the users, the third game appears to have more
+"spikey" data. This could be an indication of the bugs in the game.
 
 # D3 (V)
 
