@@ -71,7 +71,7 @@ Respons: n refers to the number of records in a collection that match the query.
 
 > db.aid.aggregate( [ { $match: {"donor":"Belgium"}} , {$group:{_id:"$year",total:{$sum:"$disbursement_amount"}}}])
 
-![screenshot](Ch5Mongo.png)
+![screenshot](C5Mongo.png)
 
 # Machine Learning (II)
 
