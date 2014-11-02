@@ -36,39 +36,42 @@ fill-in-your-answer
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](checkpoint1mongo.png?raw=true)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aidata.find({'donor':'Belgium','disbursement_amount':{$gt:0}},{'recipient':1,'disbursement_amount':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenge1mongo.png?raw=true)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aidata.find({'biodiversity':{$ne:''},'disbursement_amount':{$ne:''}},{'recipient':1, 'disbursement_amount':1,'title':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenge2mongo.png?raw=true)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand({ distinct: "aidata", key : "flow_type"})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenge3mongo.png?raw=true)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.runCommand({ distinct: "aidata", key : "flow_type", query : { "disbursement_amount" : {$gt : 100000000}}})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenge4mongo.png?raw=true)
+
+
+n is the number of queries returned which match this search. The query where disbursement_amount wasn't restricted was much higher than the second query where it was limited to values above 10,000,000. 
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aidata.aggregate([{$match:{'donor':'Belgium'}},{$group:{_id:'$year',total:{$sum:'$disbursement_amount'}}}])
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenge5mongo.png?raw=true)
 
 # Machine Learning (II)
 
@@ -106,9 +109,9 @@ This data shows that students more likely moved the phone in a rolling motion th
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](challenge1D3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](challenge1D3.html)
 
 # 2. (5 points)
 
