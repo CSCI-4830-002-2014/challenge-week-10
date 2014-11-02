@@ -1,34 +1,36 @@
 # Name
 
-write-your-name
+Alexander Tsankov
 
 # How many points have you earned?
 
-0/100
+100/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+6
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+10/29/14
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+Getting the checkpoints for the d3 tutorial and doing the aggregating for the mongo query. 
 
 # Show and tell (6 points)
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[Trade Deficit Graph](http://www.brightpointinc.com/interactive/ustrade/index.html?source=d3js)
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+Two features I would like to learn are: 
+	- Learning more about prebuilt graphing libraries. 
+	- Different types of charts besides line or scatter. 
 
 # MongoDB III
 
@@ -36,39 +38,39 @@ fill-in-your-answer
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](m-checkpoint-1.png)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({'donor' : 'Belgium' , 'disbursement_amount': {$ne: ''}},{"disbursement_amount":-1, "recipient":-1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](m-challenge-1.png)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({'biodiversity' : {$in : [1,2] }},{"disbursement_amount":-1, "recipient":-1, "title":-1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](m-challenge-2.png)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct: 'aiddata', key: 'flow_type'})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](m-challenge-3.png)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct: 'aiddata', key: 'flow_type',query: {"disbursement_amount" : {$gt : 100000000}, "commitment_amount_currency" : "USD" }})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](m-challenge-4.png)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aiddata.aggregate( [ {$match: { 'donor' : 'Belgium'} },{$group: {_id : "$year",total: { $sum : "$disbursement_amount" } } } ] )
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](m-challenge-5.png)
 
 # Machine Learning (II)
 
@@ -76,23 +78,26 @@ fill-in-your-answer
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml-challenge-1a.png)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml-challenge-1b.png)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml-challenge-1c.png)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](ml-challenge-1d.png)
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+One way to use Tableau would be to quickly identify who hasn't followed instructions. The instructions said that we needed to hold the phone, so we should see some variance between the x,y,z axis. In the chart, we can see that student 13 does not have this variance and we can safely assume that they placed their phone on the table for the duration of the experiment. We can also glean information about the most comfortable ergonomic position for subjects to hold the phone as well. 
+
+![screenshot](ml-challenge-2.png)
+
 
 # D3 (V)
 
@@ -100,43 +105,45 @@ fill-in-your-answer
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](d3-checkpoint-1.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint-1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](d3-checkpoint-2.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint-2.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](d3-checkpoint-3.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint-3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](d3-checkpoint-4.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint-4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3-challenge-1.png)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3-challenge-2.png)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3-challenge-3.png)
 
 ### 4. (10 points)
 
-![screenshot](screenshot.png?raw=true)
+For this challenge, I changed the color of the dots to represent the rating in stars of the resteraunt. It if it's one star it is red, 2 stars for blue, 3 for gold, 4 for pink, and 5 for purple. 
+
+![screenshot](d3-challenge-4.png)
 
