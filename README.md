@@ -109,43 +109,43 @@ This data shows that students more likely moved the phone in a rolling motion th
 
 # 1. (5 points)
 
-![image](challenge1D3.png?raw=true)
+![image](checkpoint1D3.png?raw=true)
 
-[checkpoint](challenge1D3.html)
+[checkpoint](checkpoint1D3.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](checkpoint2D3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint3D3.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](checkpoint3D3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint3D3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](checkpoint4D3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint4D3.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenge1D3.png?raw=true)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenge2D3.png?raw=true)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenge3D3.png?raw=true)
 
 ### 4. (10 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenge4D3.png?raw=true)
 
