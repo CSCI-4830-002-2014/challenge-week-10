@@ -134,11 +134,25 @@ the number of entries with `disbursement_amount` larger than 100'000'000.
 
 ![screenshot](screenshots/d3/challenge2.png?raw=true)
 
+`var query = {"city":"Middleton"};`
+
 ### 3. (5 points)
 
 ![screenshot](screenshots/d3/challenge3.png?raw=true)
 
+`var query = {"city":"Las Vegas"};`
+
 ### 4. (10 points)
 
 ![screenshot](screenshots/d3/challenge4.png?raw=true)
+
+This graph has the following properties:
+
+**selection:** Businesses in Las Vegas    
+**x-axis:** number of ratings    
+**y-axis:** latitude    
+**color:** number of stars   
+
+It shows that the most rated businesses are in the middle of the city, and
+that the average business rating seem to be even across the town.
 
