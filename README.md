@@ -4,7 +4,7 @@ Alexia Newgord
 
 # How many points have you earned?
 
-35/100
+55/100
 
 
 # How many hours have you spent on this?
@@ -109,25 +109,25 @@ I thought it would interesting to see how this data evolved over time, since our
 
 ![image](dcp1.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](dcp1.html)
 
 # 2. (5 points)
 
 ![image](dcp2.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](dcp2.html)
 
 # 3. (5 points)
 
 ![image](dcp3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](dcp3.html)
 
 # 4. (5 points)
 
 ![image](dcp4.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](dcp4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
