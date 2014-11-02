@@ -4,7 +4,7 @@ Niklas Fejes
 
 # How many points have you earned?
 
-0/100
+100/100
 
 # How many hours have you spent on this?
 
@@ -102,43 +102,43 @@ the number of entries with `disbursement_amount` larger than 100'000'000.
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](screenshots/d3/checkpoint1.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/checkpoint1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](screenshots/d3/checkpoint2.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/checkpoint2.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](screenshots/d3/checkpoint3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/checkpoint3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](screenshots/d3/checkpoint4.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/checkpoint4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](screenshots/d3/challenge1.png?raw=true)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](screenshots/d3/challenge2.png?raw=true)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](screenshots/d3/challenge3.png?raw=true)
 
 ### 4. (10 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](screenshots/d3/challenge4.png?raw=true)
 
