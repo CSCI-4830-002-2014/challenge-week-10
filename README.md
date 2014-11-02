@@ -1,34 +1,35 @@
 # Name
 
-write-your-name
+Alexia Newgord
 
 # How many points have you earned?
 
-0/100
+100/100
 
-(Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+5
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+Halloween
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+D3 tutorial
 
 # Show and tell (6 points)
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[Visualization](http://planetaryjs.com/examples/quake/index.html)
+[Source Code](http://planetaryjs.com/examples/quake.html)
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+1. I'd like to learn how to represent 3D objects in D3.
+2. I'd like to improve my ability to animate objects, especially in dynamic/real-time situations.
 
 # MongoDB III
 
@@ -36,39 +37,43 @@ fill-in-your-answer
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](mcp1.png?raw=true)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({"donor":"Belgium"},{"recipient":1, 'commitment_amount':1})
 
-![screenshot](screenshot.png?raw=true)
+There were many undefined disbursements, so I thought 'commitment_amount' would be more interesting.
+
+![screenshot](mc1.png?raw=true)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({"short_description":"BIODIVERSITY"}, {"recipient":1, 'disbursement_amount':1, "title":1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mc2.png?raw=true)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct: "aiddata", key: "flow_type"})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mc3.png?raw=true)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct: "aiddata", key: "flow_type", query:{disbursement_amount: {$gt:100000000}}})
 
-![screenshot](screenshot.png?raw=true)
+"n" is the number of results identified. The difference between this challenge and the last is 999865.
+
+![screenshot](mc4.png?raw=true)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aiddata.aggregate([{ $match: {"donor":"Belgium"}},{ $group: { _id:"$year", total: {$sum:"$disbursement_amount"}}}])
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mc5.png?raw=true)
 
 # Machine Learning (II)
 
@@ -76,23 +81,25 @@ fill-in-your-answer
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](c1a.png?raw=true)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](c1b.png?raw=true)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](c1c.png?raw=true)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](c1d.png?raw=true)
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+I thought it would interesting to see how this data evolved over time, since our interaction with the phone would have changed depending on the activity.  As you can see in the visualization below, there are four spikes in activity (SUM(Touch Label)), which suggest when the interactive games were occurring, as opposed to filling out forms.  Although I'm not quite sure what pitch and roll mean, I thought it was very interesting that the pitch (color value), increased during the third activity, and the roll (thickness), notably decreased during the third activity.  For me, this was when the glitches occurred and these results may suggest how users respond to glitchy software behavior.
+
+![screenshot](c2.png?raw=true)
 
 # D3 (V)
 
@@ -100,43 +107,43 @@ fill-in-your-answer
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](dcp1.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](dcp1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](dcp2.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](dcp2.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](dcp3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](dcp3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](dcp4.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](dcp4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](dc1.png?raw=true)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](dc2.png?raw=true)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](dc3.png?raw=true)
 
 ### 4. (10 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](dc4.png?raw=true)
 
