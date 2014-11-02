@@ -10,7 +10,7 @@ Chris Wittenberg
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+7
 
 # When did you first start working on this week's learning challenges?
 
@@ -18,7 +18,7 @@ Tuesday
 
 # What is the most difficult part about this week's challenge?
 
-Getting my data into MongoDB.
+Getting my data into MongoDB and getting the query to work for D3 Challenge 4.
 
 # Show and tell (6 points)
 
