@@ -4,12 +4,12 @@ Alexia Newgord
 
 # How many points have you earned?
 
-55/100
+100/100
 
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+5
 
 # When did you first start working on this week's learning challenges?
 
@@ -17,7 +17,7 @@ Halloween
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+D3 tutorial
 
 # Show and tell (6 points)
 
