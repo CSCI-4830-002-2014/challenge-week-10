@@ -4,13 +4,13 @@ Logan Bates
 
 # How many points have you earned?
 
-23/100
+100/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+4
 
 # When did you first start working on this week's learning challenges?
 
@@ -18,17 +18,18 @@ Friday night
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+The last D3 challenge.
 
 # Show and tell (6 points)
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[Sequences Sunburst](http://bl.ocks.org/kerryrodden/7090426)
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+1. Interactivity with the user. The user should be able to interact with the visual to get to what they need.
+2. Maps!
 
 # MongoDB III
 
@@ -115,19 +116,19 @@ This data shows that students more likely moved the phone in a rolling motion th
 
 # 2. (5 points)
 
-![image](checkpoint2D3.png?raw=true)
+![image](checkpoint2D3.PNG?raw=true)
 
 [checkpoint](checkpoint3D3.html)
 
 # 3. (5 points)
 
-![image](checkpoint3D3.png?raw=true)
+![image](checkpoint3D3.PNG?raw=true)
 
 [checkpoint](checkpoint3D3.html)
 
 # 4. (5 points)
 
-![image](checkpoint4D3.png?raw=true)
+![image](checkpoint4D3.PNG?raw=true)
 
 [checkpoint](checkpoint4D3.html)
 
@@ -135,17 +136,17 @@ This data shows that students more likely moved the phone in a rolling motion th
 
 ### 1. (5 points)
 
-![screenshot](challenge1D3.png?raw=true)
+![screenshot](challenge1D3.PNG?raw=true)
 
 ### 2. (5 points)
 
-![screenshot](challenge2D3.png?raw=true)
+![screenshot](challenge2D3.PNG?raw=true)
 
 ### 3. (5 points)
 
-![screenshot](challenge3D3.png?raw=true)
+![screenshot](challenge3D3.PNG?raw=true)
 
 ### 4. (10 points)
 
-![screenshot](challenge4D3.png?raw=true)
+![screenshot](challenge4D3.PNG?raw=true)
 
