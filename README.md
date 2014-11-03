@@ -10,7 +10,7 @@ Joshua Ferge
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+~5
 
 # When did you first start working on this week's learning challenges?
 
@@ -18,17 +18,17 @@ Wednesday
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+i found it all to be reasonable and not too difficult. mongo stuff was fun :)
 
 # Show and tell (6 points)
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[25 Great Circles](http://tributary.io/inlet/5262684)
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+Path Making and Using real images to represent things. i.e. geo-based maps.
 
 # MongoDB III
 
@@ -94,7 +94,8 @@ n is the total number of objects which the field searched through. In the first 
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+We can see that the average light of the users varied greatly. We can attribute this to doing the experiment on different times of the day as well as the specific lighting of each room the student would have done the experiment in. 
+![image](d3learn1.png?raw=true)
 
 # D3 (V)
 
@@ -102,43 +103,43 @@ n is the total number of objects which the field searched through. In the first 
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](d3check1.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3check1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](d3check2.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3check2.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](d3check3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3check3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](d3check4.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3check4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3chal1.png?raw=true)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3chal2.png?raw=true)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3chal3.png?raw=true)
 
 ### 4. (10 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3chal4.png?raw=true)
 
