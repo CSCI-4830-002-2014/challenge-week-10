@@ -1,6 +1,6 @@
 # Name
 
-write-your-name
+Irfan Nadiadi
 
 # How many points have you earned?
 
@@ -36,39 +36,43 @@ fill-in-your-answer
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](checkpoints/mongo_1.png)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({ 'donor':'Belgium', 'disbursement_amount':{ $gt:0 }}, { '_id':0, 'recipient':1, 'disbursement_amount':1 });
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenges/monngo_1.png)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({ 'biodiversity':{ $ne:'' }, 'disbursement_amount':{ $gt: 0 }}, { '_id':0, 'disbursement_amount':1, 'title':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenges/monngo_2.png)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand({ distinct: 'aiddata', key: 'flow_type' });
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenges/monngo_3.png)
 
 # 4. (5 points)
 
-> db.[complete this query]
+'n' is the count of the results from the query. The second result is magnitudes smaller than the first because the results are limited by the filter for disbursement amount greater than 100,000,000
 
-![screenshot](screenshot.png?raw=true)
+>  db.runCommand({ distinct: 'aiddata', key: 'flow_type', query: { 'disbursement_amount': {$gt:100000000}}});
+
+![screenshot](challenges/monngo_4.png)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aiddata.aggregate([ { $match: { 'donor':'Belgium' }}
+						 { $group: { '_id':'$year', 'total':{ $sum: '$disbursement_amount' }}}
+						 ]);
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenges/monngo_5.png)
 
 # Machine Learning (II)
 
