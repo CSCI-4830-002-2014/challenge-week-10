@@ -44,19 +44,19 @@ fill-in-your-answer
 
 > db.aiddata.find({ 'donor':'Belgium', 'disbursement_amount':{ $gt:0 }}, { '_id':0, 'recipient':1, 'disbursement_amount':1 });
 
-![screenshot](challenges/monngo_1.png)
+![screenshot](challenges/mongo_1.png)
 
 # 2. (5 points)
 
 > db.aiddata.find({ 'biodiversity':{ $ne:'' }, 'disbursement_amount':{ $gt: 0 }}, { '_id':0, 'disbursement_amount':1, 'title':1})
 
-![screenshot](challenges/monngo_2.png)
+![screenshot](challenges/mongo_2.png)
 
 # 3. (5 points)
 
 > db.runCommand({ distinct: 'aiddata', key: 'flow_type' });
 
-![screenshot](challenges/monngo_3.png)
+![screenshot](challenges/mongo_3.png)
 
 # 4. (5 points)
 
@@ -64,7 +64,7 @@ fill-in-your-answer
 
 >  db.runCommand({ distinct: 'aiddata', key: 'flow_type', query: { 'disbursement_amount': {$gt:100000000}}});
 
-![screenshot](challenges/monngo_4.png)
+![screenshot](challenges/mongo_4.png)
 
 # 5. (5 points)
 
