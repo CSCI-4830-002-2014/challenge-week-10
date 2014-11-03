@@ -4,13 +4,13 @@ Daniel Nolan
 
 # How many points have you earned?
 
-26/100
+100/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # How many hours have you spent on this?
 
-1
+5
 
 # When did you first start working on this week's learning challenges?
 
@@ -107,27 +107,27 @@ The diagram for Challenge 1c concluded that there was not much of a difference i
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/WGR08M3.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/r3hNOq8.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint2.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/ph5US2z.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/WsK7Kyy.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
