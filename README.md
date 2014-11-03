@@ -10,7 +10,7 @@ Adrian Chen
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+6
 
 # When did you first start working on this week's learning challenges?
 
@@ -18,7 +18,7 @@ Saturday
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+Figuring out D3.
 
 # Show and tell (6 points)
 
@@ -36,39 +36,39 @@ Circular graphing, Geographical graphing
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](mongoDB/img/CP1.png?raw=true)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({"donor": "Belgium"},{"recipient": 1, "disbursement_amount":1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongoDB/img/CH1.png?raw=true)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({"biodiversity":{$gt:0}},{"recipient" : 1, "disbursement_amout" : 1, "title" : 1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongoDB/img/CH2.png?raw=true)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand({ distinct: "aiddata", key : "flow_type"})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongoDB/img/CH3.png?raw=true)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.runCommand({ distinct: "aiddata", key : "flow_type", query : { "disbursement_amount" : {$gt : 100000000}}})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongoDB/img/CH4.png?raw=true)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aiddata.aggregate([{$match: {donor : "Belgium"}}. {$group : { _id : "$year", total: {$sum : "$disbursement_amount"}}}])
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongoDB/img/CH5.png?raw=true)
 
 # Machine Learning (II)
 
@@ -76,19 +76,19 @@ Circular graphing, Geographical graphing
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](Tableau/img/CH1a.png?raw=true)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](Tableau/img/CH1b.png?raw=true)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](Tableau/img/CH1c.png?raw=true)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](Tableau/img/CH1d.png?raw=true)
 
 ## Challenge 2 (8 points)
 
@@ -100,43 +100,43 @@ Circular graphing, Geographical graphing
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/img/CP1.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/src/checkpoint1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/img/CP2.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/src/checkpoint2.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/img/CP3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/src/checkpoint3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/img/CP4.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/src/checkpoint4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3/img/CH1.png?raw=true)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3/img/CH2.png?raw=true)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3/img/CH3.png?raw=true)
 
 ### 4. (10 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](d3/img/CH4.png?raw=true)
 
