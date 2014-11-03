@@ -4,7 +4,7 @@ Irfan Nadiadi
 
 # How many points have you earned?
 
-0/100
+44/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -80,19 +80,19 @@ fill-in-your-answer
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenges/ml_1a.png)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenges/ml_1b.png)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenges/ml_1c.png)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](challenges/ml_1d.png)
 
 ## Challenge 2 (8 points)
 
@@ -104,15 +104,15 @@ fill-in-your-answer
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/check1.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/checkpoint1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](d3/check2.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/checkpoint2.html)
 
 # 3. (5 points)
 
