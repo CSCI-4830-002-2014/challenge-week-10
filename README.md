@@ -75,7 +75,7 @@ One problem I've run into in some of my work is enabling progressive disclosure.
 						 { $group: { '_id':'$year', 'total':{ $sum: '$disbursement_amount' }}}
 						 ]);
 
-![screenshot](challenges/monngo_5.png)
+![screenshot](challenges/mongo_5.png)
 
 # Machine Learning (II)
 
