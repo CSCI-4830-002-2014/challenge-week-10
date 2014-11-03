@@ -1,10 +1,10 @@
 # Name
 
-write-your-name
+Nikita Voskoboynik
 
 # How many points have you earned?
 
-0/100
+30/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -14,7 +14,7 @@ fill-in-your-answer
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+Friday
 
 # What is the most difficult part about this week's challenge?
 
@@ -24,11 +24,11 @@ fill-in-your-answer
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[Choropleth](http://bl.ocks.org/mbostock/4060606)
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+How to create maps using D3 and how to use color gradients.
 
 # MongoDB III
 
@@ -76,23 +76,25 @@ fill-in-your-answer
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+[Imgur](http://i.imgur.com/MXhM4df.png)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+[Imgur](http://i.imgur.com/LQAiUPS.png)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+[Imgur](http://i.imgur.com/wh9XkMh.png)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+[Imgur](http://i.imgur.com/hymsdk8.png)
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+This analysis was to answer the question: Is there any correlation with the number of touch events a student has in their session and how long it took them to complete the session? Using a bar chart and color marks, we could see that there is evidence of students who had more touch events took longer to finish the session.
+
+[Imgur](http://i.imgur.com/qK86AST.png)
 
 # D3 (V)
 
