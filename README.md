@@ -143,3 +143,5 @@ We can see that the average light of the users varied greatly. We can attribute 
 
 ![screenshot](d3chal4.png?raw=true)
 
+i modified it to change the color of the dot based on which category the business belonged to. looks like casinos have a lot of reviews.
+
