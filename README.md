@@ -40,39 +40,40 @@ Things that are very vital for internship/job market use. This would obviously b
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/UfDyTH2.png)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({ 'donor':'Belgium', 'disbursement_amount':{ $gt:0 }}, { '_id':1, 'recipient':1, 'disbursement_amount':1 });
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/OzNnkNx.png)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({ 'biodiversity':{$gt:0}}, { '_id':1, 'recipient':1, 'title':1 });
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/KtiaEXr.png)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct:'aiddata',key:'flow_type'})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/z8nMUDn.png)
 
 # 4. (5 points)
+n stands for the number of objects that match the query command. In this case, it matches the data points that list the disbursement amount over $100000000. In the previous challenge, n is equal to nscanned which means that all of the data is included within the query.
+> db.runCommand({distinct:'aiddata',key:'flow_type', query:{'disbursement_amount':{$gt:100000000}}})
 
-> db.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/elq5rcI.png)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aiddata.aggregate([{ $match: { 'donor':'Belgium' }}, { $group: { '_id':'$year', total: {$sum: '$disbursement_amount' }}}]);
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/XbuG3Sn.png)
 
 # Machine Learning (II)
 
