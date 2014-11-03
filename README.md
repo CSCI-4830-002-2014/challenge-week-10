@@ -10,15 +10,15 @@ Irfan Nadiadi
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+3
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+Sunday afternoon
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+Nothing was particularly difficult, I just didn't account for some other work I needed to complete.
 
 # Show and tell (6 points)
 
