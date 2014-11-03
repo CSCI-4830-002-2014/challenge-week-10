@@ -93,7 +93,7 @@ Circular graphing, Geographical graphing
 ## Challenge 2 (8 points)
 
 ![screenshot](Tableau/img/CH2a.png?raw=true)
-
+This data would be very interesting on a large scale, especially if compared against how well the user scored to see if there was some optimal way to orient a mobile device.
 ![screenshot](Tableau/img/CH2b.png?raw=true)
 
 # D3 (V)
