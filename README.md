@@ -92,7 +92,9 @@ Circular graphing, Geographical graphing
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+![screenshot](Tableau/img/CH2a.png?raw=true)
+
+![screenshot](Tableau/img/CH2b.png?raw=true)
 
 # D3 (V)
 
