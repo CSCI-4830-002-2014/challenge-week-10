@@ -4,13 +4,13 @@ Sam Korn
 
 # How many points have you earned?
 
-0/100
+100/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+8 Hours
 
 # When did you first start working on this week's learning challenges?
 
