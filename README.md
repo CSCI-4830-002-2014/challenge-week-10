@@ -4,7 +4,7 @@ Irfan Nadiadi
 
 # How many points have you earned?
 
-51/100
+53/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -28,7 +28,10 @@ fill-in-your-answer
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+[Building responsible visualizations](https://blog.safaribooksonline.com/2014/02/17/building-responsible-visualizations-d3-js/)
+
+One problem I've run into in some of my work is enabling progressive disclosure. What happens when you have scientific data, for example, that encompasses a period of a year, with a cadence of 5 minutes? It can be a very expensive operation to load that much data into an application and build a visualization on top of it. A solution to this is progressive disclosure, where the data is binned (server side) and the binned averages are displayed. Zooming into the visualization then gives better resolution, but with smaller bins, until the user is zoomed in far enough such that viewing full resolution data is no longer computationally expensive.
+
 
 # MongoDB III
 
