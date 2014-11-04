@@ -4,11 +4,11 @@ Austin Wood
 
 # How many points have you earned?
 
-0/100
+100/100
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+4 hours.
 
 # When did you first start working on this week's learning challenges?
 
@@ -16,17 +16,20 @@ Sunday, Nov. 2, 2014, 11:20am
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+The queries for mongo were still a bit rough, but not as hard. This week's challenge wasn't as intense
+(thankfully) as some of the others.
 
 # Show and tell (6 points)
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[Geodesic Rainbow](http://bl.ocks.org/mbostock/3057239)
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+The code here uses d3.geo.orthographic() which sounds awesome. Let's definitely learn that!
+I am also interested in implementing the rotate() method to a visualization. I think including
+some sort of hands-on interactivity always makes the project more engaging and fun.
 
 # MongoDB III
 
@@ -74,23 +77,31 @@ fill-in-your-answer
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![challenge 1a](img/machine_ch1a.png?raw=true)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![challenge 1b](img/machine_ch1b.png?raw=true)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![challenge 1c](img/machine_ch1c.png?raw=true)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![challenge 1d](img/machine_ch1d.png?raw=true)
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+I tried to find something a bit strange, and noticed that one of the data 
+sources was an azimuth measurement and I thought, "what the hell is that?"
+so I looked it up, and its a bit complicated. Basically it's just the
+angle between a vector pointing straight north and the perpendicular plane
+of an object of interest (in this case, the phone). It's cool to see that
+not many of the students changed positions, on average; most people were
+facing fairly close to true north for most of the meeting.
+
+![challenge 2](img/machine_ch2.png?raw=true)
 
 # D3 (V)
 
@@ -120,7 +131,7 @@ fill-in-your-answer
 
 [checkpoint](checkpoint.html)
 
-## Challenges 	(5 points x 3 + 10 points = 25 points)
+## Challenges	(5 points x 3 + 10 points = 25 points)
 
 ### 1. (5 points)
 
