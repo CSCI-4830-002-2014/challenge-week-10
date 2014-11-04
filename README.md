@@ -1,12 +1,10 @@
 # Name
 
-write-your-name
+Austin Wood
 
 # How many points have you earned?
 
 0/100
-
-(Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # How many hours have you spent on this?
 
@@ -14,7 +12,7 @@ fill-in-your-answer
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+Sunday, Nov. 2, 2014, 11:20am
 
 # What is the most difficult part about this week's challenge?
 
@@ -36,39 +34,39 @@ fill-in-your-answer
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![checkpoint 1](img/mongo_cp1.png?raw=true)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({'donor' : 'Belgium' , 'disbursement_amount': {$ne: ''}},{"disbursement_amount":-1, "recipient":-1}) 
 
-![screenshot](screenshot.png?raw=true)
+![challenge 1](img/mongo_ch1.png?raw=true)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({'biodiversity' : {$in : [1,2] }},{"disbursement_amount":-1, "recipient":-1, "title":-1})
 
-![screenshot](screenshot.png?raw=true)
+![challenge 2](img/mongo_ch2.png?raw=true)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct: 'aiddata', key: 'flow_type'}) 
 
-![screenshot](screenshot.png?raw=true)
+![challenge 3](img/mongo_ch3.png?raw=true)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct: 'aiddata', key: 'flow_type',query: {"disbursement_amount" : {$gt : 100000000}, "commitment_amount_currency" : "USD" }}) 
 
-![screenshot](screenshot.png?raw=true)
+![challenge 4](img/mongo_ch4.png?raw=true)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aiddata.aggregate([{$match: {donor : "Belgium"}}. {$group : { _id : "$year", total: {$sum : "$disbursement_amount"}}}])
 
-![screenshot](screenshot.png?raw=true)
+![challenge 5](img/mongo_ch5.png?raw=true)
 
 # Machine Learning (II)
 
