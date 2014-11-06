@@ -36,39 +36,51 @@ fill-in-your-answer
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](https://www.dropbox.com/s/9xizezpzkj7bllg/Screenshot%202014-11-05%2023.10.18.png?dl=1)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+```javascript
+db.aiddata.find({"donor" : "Belgium"},{'recipient': 1, 'disbursement_amount':1})
+```
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](https://www.dropbox.com/s/si174eg1mox6jvc/Screenshot%202014-11-05%2023.25.16.png?dl=1)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+```javascript
+db.aiddata.find({'biodiversity' : {$in : [1,2] }},{"disbursement_amount":1, "recipient":1, "title":1}).pretty()
+```
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](https://www.dropbox.com/s/saei709e51snw3q/Screenshot%202014-11-06%2009.49.31.png?dl=1)
 
 # 3. (5 points)
 
 > db.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+```javascript
+db.runCommand({distinct: 'aiddata', key: 'flow_type'})
+```
+
+![screenshot](https://www.dropbox.com/s/a8d1dn4onok6dqr/Screenshot%202014-11-06%2014.52.39.png?dl=1)
 
 # 4. (5 points)
 
-> db.[complete this query]
+```javascript
+db.runCommand({distinct: 'aiddata', key: 'flow_type', query: {'disbursement_amount': {$gte:100000000}}})
+```
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](https://www.dropbox.com/s/y10xvqmfr4gsvi2/Screenshot%202014-11-06%2014.51.14.png?dl=1)
 
 # 5. (5 points)
 
-> db.[complete this query]
+```javascript
+db.aiddata.aggregate([{$match: {'donor':'Belgium'}}, {$group: {_id:'$year', total:{$sum: "$commitment_amount"}}}])
+```
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](https://www.dropbox.com/s/boklfmjav3qq8xr/Screenshot%202014-11-06%2015.05.19.png?dl=1)
 
 # Machine Learning (II)
 
