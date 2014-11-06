@@ -76,23 +76,27 @@ fill-in-your-answer
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](https://www.dropbox.com/s/o7knzdgbkctlqjx/Screenshot%202014-11-05%2017.41.13.png?dl=1)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](https://www.dropbox.com/s/jewuj20z64k8dp5/Screenshot%202014-11-05%2017.46.14.png?dl=1)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](https://www.dropbox.com/s/f2kmvhaqlzfrbz7/Screenshot%202014-11-05%2017.50.01.png?dl=1)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](https://www.dropbox.com/s/a3m2sd7plg3fmpr/Screenshot%202014-11-05%2017.51.47.png?dl=1)
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+![screenshot](https://www.dropbox.com/s/0sx4kjsu43ki7du/Screenshot%202014-11-05%2017.59.15.png?dl=1)
+
+In this image, you are able to see how each student interacted with the device
+using data obtained from the accelerometer. As you can see, the y-axis was used
+sparingly, and typically users were moving up/down and forward/backward.
 
 # D3 (V)
 
