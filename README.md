@@ -1,34 +1,32 @@
 # Name
 
-write-your-name
+Ian Ker-Seymer
 
 # How many points have you earned?
 
-0/100
-
-(Make your own calculation and replace the number 0 with the points you think you've earned.)
+100/100
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+9 hours
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+Not sure.
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+Mongo challenges.
 
 # Show and tell (6 points)
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-interesting-D3-visualization-example)
+[D3 show reel](http://bl.ocks.org/mbostock/1256572)
 
 ## Write down TWO D3 features you’d like to learn next . (4 points)
 
-fill-in-your-answer
+Better transitions, how to do Voronoi maps.
 
 # MongoDB III
 
