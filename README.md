@@ -114,45 +114,46 @@ sparingly, and typically users were moving up/down and forward/backward.
 
 ## Checkpoints (5 points x 4 = 20 points)
 
-# 1. (5 points)
+# 1.
 
-![image](image.png?raw=true)
+![image](https://www.dropbox.com/s/31mi6l0onpeb1m8/Screenshot%202014-10-26%2012.59.33.png?dl=1)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/app/checkpoint5/index.html)
 
-# 2. (5 points)
+# 2.
 
-![image](image.png?raw=true)
+![image](https://www.dropbox.com/s/mxsahup7jqahh3y/Screenshot%202014-10-26%2013.13.54.png?dl=1)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/app/checkpoint6/index.html)
 
-# 3. (5 points)
+# 3.
 
-![image](image.png?raw=true)
+![image](https://www.dropbox.com/s/dhos8xgjoxzuh79/Screenshot%202014-10-26%2013.51.59.png?dl=1)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/app/checkpoint7/index.html)
 
-# 4. (5 points)
+# 4.
 
-![image](image.png?raw=true)
+![image](https://www.dropbox.com/s/jq88rgcx7bc9t9c/Screenshot%202014-10-26%2013.56.34.png?dl=1)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/app/checkpoint8/index.html)
+
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](https://www.dropbox.com/s/ks7zmx2jzf67arn/Screenshot%202014-11-09%2019.26.00.png?dl=1)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](https://camo.githubusercontent.com/51ba8ccb63e7dcc030d41bb70006236dcec700cd/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f316565726161776a6e7978396b79612f53637265656e73686f74253230323031342d31302d323725323031392e33312e32352e706e673f646c3d31)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](https://www.dropbox.com/s/xahbv0cqgqoyjoo/Screenshot%202014-11-09%2019.37.32.png?dl=1)
 
 ### 4. (10 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](https://www.dropbox.com/s/o9421sejhw0gk8b/Screenshot%202014-11-09%2019.44.47.png?dl=1)
 
