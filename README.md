@@ -10,7 +10,7 @@ Daniel Nolan
 
 # How many hours have you spent on this?
 
-5
+6
 
 # When did you first start working on this week's learning challenges?
 
@@ -134,17 +134,17 @@ The diagram for Challenge 1c concluded that there was not much of a difference i
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/AaUcJjx.png)
 
 ### 2. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/Wv253v0.png)
 
 ### 3. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/BMR6eLo.png)
 
 ### 4. (10 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/rf3kwJm.png)
 
