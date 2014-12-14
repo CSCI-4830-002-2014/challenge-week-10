@@ -42,31 +42,31 @@ fill-in-your-answer
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aid.find({'donor': 'Belgium'}, {'recipient':1, 'disbursement_amount':1})
 
 ![screenshot](screenshot.png?raw=true)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aid.find({'short_description': 'BIODIVERSITY'}, {'recipient':1, 'disbursement_amount':1, 'title':1})
 
 ![screenshot](screenshot.png?raw=true)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.aid.distinct('flow_type')
 
 ![screenshot](screenshot.png?raw=true)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.aid.distinct('flow_type', {'disbursement_amount':{$gt: 100000000}})
 
 ![screenshot](screenshot.png?raw=true)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aid.aggregate([ {$match: {'donor':'Belgium'}}, {$group: {_id:'$year', total:{$sum: '$disbursement_amount'}}}])
 
 ![screenshot](screenshot.png?raw=true)
 
