@@ -1,16 +1,17 @@
+Challenge Week 10
 # Name
 
 Nikita Voskoboynik
 
 # How many points have you earned?
 
-30/100
+60/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+8 hours
 
 # When did you first start working on this week's learning challenges?
 
@@ -18,7 +19,7 @@ Friday
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+D3
 
 # Show and tell (6 points)
 
@@ -36,39 +37,39 @@ How to create maps using D3 and how to use color gradients.
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+[Imgur](http://i.imgur.com/uALOm2t.jpg)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({donor: “Belgium”, disbursement_amount:{$ne:’’}}, {id:1, recipient:1, disbursement_amount:1})
 
-![screenshot](screenshot.png?raw=true)
+[Imgur](http://i.imgur.com/tKQxkVJ.jpg)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata.find({biodiversity:{$ne:''}}, {id:1, recipient:1, disbursement_amount:1, title:1})
 
-![screenshot](screenshot.png?raw=true)
+[Imgur](http://i.imgur.com/9SwhAF5.jpg)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct: “aiddata”, key: “flow_type”})
 
-![screenshot](screenshot.png?raw=true)
+[Imgur](http://i.imgur.com/jRRPhmD.jpg)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct: "aiddata", key:"flow_type", query:{disbursement_amount:{$gt:100000}}})
 
-![screenshot](screenshot.png?raw=true)
+[Imgur](http://i.imgur.com/XkdYwe2.jpg)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aiddata.aggregate([{$match:{donor: "Belgium"}}, {$group:{_id:"$year",total:{$sum:"$disbursement_amount"}}}])
 
-![screenshot](screenshot.png?raw=true)
+[Imgur](http://i.imgur.com/fi2k72y.jpg)
 
 # Machine Learning (II)
 
