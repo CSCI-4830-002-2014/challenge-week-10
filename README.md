@@ -76,23 +76,28 @@ fill-in-your-answer
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/EAVhkf5.png)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/SYnyGL5.png)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/we1TiUG.png)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/MWggy5m.png)
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+Here I have created a visualization that analyzes the time each student took to complete the task by color,
+while the bar height represents how many touches they made during the test. We can see that the greener bars 
+are also the shortest bars with regard to height, which would be expected. The shorter the duration of taking 
+the test, the fewer touches were made. 
+
+![screenshot](http://i.imgur.com/MBQj3t5.png)
 
 # D3 (V)
 
