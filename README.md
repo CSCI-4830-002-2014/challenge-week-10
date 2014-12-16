@@ -50,7 +50,7 @@ fill-in-your-answer
 
 > db.aid.find({'short_description': 'BIODIVERSITY'}, {'recipient':1, 'disbursement_amount':1, 'title':1})
 
-![screenshot](http://i.imgur.com/bejZUHX.png)
+![screenshot](http://i.imgur.com/jjL7XpF.png)
 
 # 3. (5 points)
 
@@ -68,7 +68,7 @@ fill-in-your-answer
 
 > db.aid.aggregate([ {$match: {'donor':'Belgium'}}, {$group: {_id:'$year', total:{$sum: '$disbursement_amount'}}}])
 
-![screenshot](http://i.imgur.com/AeP5Ng9.png)
+![screenshot](http://i.imgur.com/W7aw8Ni.png)
 
 # Machine Learning (II)
 
