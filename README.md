@@ -1,6 +1,6 @@
 # Name
 
-write-your-name
+Jake White
 
 # How many points have you earned?
 
@@ -100,27 +100,27 @@ fill-in-your-answer
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/XRWSZMC.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/check1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/T13W0eO.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/check2.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/GXlNpay.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/check3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/h5XXKfk.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/check4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
