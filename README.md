@@ -126,7 +126,7 @@ fill-in-your-answer
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/tjDf309.png)
 
 ### 2. (5 points)
 
