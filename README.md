@@ -1,10 +1,10 @@
 # Name
 
-write-your-name
+Jake White
 
 # How many points have you earned?
 
-0/100
+~75/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -36,39 +36,39 @@ fill-in-your-answer
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/3VKIkCQ.png)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aid.find({'donor': 'Belgium'}, {'recipient':1, 'disbursement_amount':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/2Tp69WO.png)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aid.find({'short_description': 'BIODIVERSITY'}, {'recipient':1, 'disbursement_amount':1, 'title':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/jjL7XpF.png)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.aid.distinct('flow_type')
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/M7d60gV.png)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.aid.distinct('flow_type', {'disbursement_amount':{$gt: 100000000}})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/1tHJ1F2.png)
 
 # 5. (5 points)
 
-> db.[complete this query]
+> db.aid.aggregate([ {$match: {'donor':'Belgium'}}, {$group: {_id:'$year', total:{$sum: '$disbursement_amount'}}}])
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/W7aw8Ni.png)
 
 # Machine Learning (II)
 
@@ -76,23 +76,28 @@ fill-in-your-answer
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/EAVhkf5.png)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/SYnyGL5.png)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/we1TiUG.png)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/MWggy5m.png)
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+Here I have created a visualization that analyzes the time each student took to complete the task by color,
+while the bar height represents how many touches they made during the test. We can see that the greener bars 
+are also the shortest bars with regard to height, which would be expected. The shorter the duration of taking 
+the test, the fewer touches were made. 
+
+![screenshot](http://i.imgur.com/MBQj3t5.png)
 
 # D3 (V)
 
@@ -100,33 +105,33 @@ fill-in-your-answer
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/XRWSZMC.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/check1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/T13W0eO.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/check2.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/GXlNpay.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/check3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/h5XXKfk.png)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/check4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/tjDf309.png)
 
 ### 2. (5 points)
 
