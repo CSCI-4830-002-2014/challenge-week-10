@@ -62,7 +62,7 @@ fill-in-your-answer
 
 > db.aid.distinct('flow_type', {'disbursement_amount':{$gt: 100000000}})
 
-![screenshot](http://i.imgur.com/0MyJ1a8.png)
+![screenshot](http://i.imgur.com/1tHJ1F2.png)
 
 # 5. (5 points)
 
