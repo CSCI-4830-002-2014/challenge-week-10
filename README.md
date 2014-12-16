@@ -36,7 +36,7 @@ fill-in-your-answer
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/3VKIkCQ.png)
 
 ## Challenges (5 points x 5 = 25 points)
 
@@ -44,31 +44,31 @@ fill-in-your-answer
 
 > db.aid.find({'donor': 'Belgium'}, {'recipient':1, 'disbursement_amount':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/2Tp69WO.png)
 
 # 2. (5 points)
 
 > db.aid.find({'short_description': 'BIODIVERSITY'}, {'recipient':1, 'disbursement_amount':1, 'title':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/bejZUHX.png)
 
 # 3. (5 points)
 
 > db.aid.distinct('flow_type')
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/M7d60gV.png)
 
 # 4. (5 points)
 
 > db.aid.distinct('flow_type', {'disbursement_amount':{$gt: 100000000}})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/0MyJ1a8.png)
 
 # 5. (5 points)
 
 > db.aid.aggregate([ {$match: {'donor':'Belgium'}}, {$group: {_id:'$year', total:{$sum: '$disbursement_amount'}}}])
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/AeP5Ng9.png)
 
 # Machine Learning (II)
 
