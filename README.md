@@ -1,10 +1,9 @@
 # Name
 
-write-your-name
-
+Jose Vieitez
 # How many points have you earned?
 
-0/100
+75/100
 
 (Make your own calculation and replace the number 0 with the points you think you've earned.)
 
@@ -36,33 +35,34 @@ fill-in-your-answer
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/Ngf3xSF.png?raw=true)
 
 ## Challenges (5 points x 5 = 25 points)
 
 # 1. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata21research.find({donor : "Belgium"},{'recipient':1, 'disbursement_amount': {$gt:0}})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/7X1TbiI.png?raw=true)
 
 # 2. (5 points)
 
-> db.aiddata.[complete this query]
+> db.aiddata21research.find({'biodiversity':{$ne:""}},{'recipient':1,'title':1})
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/4xlQZ9b.png?raw=true)
 
 # 3. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct: "aiddata21research", key: "flow_type" })
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/94xzBM6.png?raw=true)
 
 # 4. (5 points)
 
-> db.[complete this query]
+> db.runCommand({distinct: "aiddata21research", key: "flow_type", query: {'disbursement_amount':{$gt:100000000}} })
 
-![screenshot](screenshot.png?raw=true)
+
+![screenshot](http://i.imgur.com/iFzFa1z.png?raw=true)
 
 # 5. (5 points)
 
@@ -76,23 +76,29 @@ fill-in-your-answer
 
 ### a. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/37ddqQy.png?raw=true)
 
 ### b. (3 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/BYSgZPT.png?raw=true)
 
 ### c. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/2q0Ek1R.png?raw=true)
 
 ### d. (3 points) 
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/EABs3EU.png?raw=true)
 
 ## Challenge 2 (8 points)
 
-{text-and-images}
+{Looking through the data, I compared the count of the touch labels for each 
+student ID, with how long it had been since the start. I found a pretty 
+simple observation, that the number of touch events was almost directly
+proportional to the lenght of time since start. Those that had low touch counts
+also had very low time counts. }
+![screenshot](http://i.imgur.com/M4dIQBM.png?raw=true)
+
 
 # D3 (V)
 
@@ -100,33 +106,33 @@ fill-in-your-answer
 
 # 1. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/JXPrpym.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint3_1.html)
 
 # 2. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/4esyqV7.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint3_2.html)
 
 # 3. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/iuqRx9E.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint3_3.html)
 
 # 4. (5 points)
 
-![image](image.png?raw=true)
+![image](http://i.imgur.com/oAdxHwe.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](checkpoint3_4.html)
 
 ## Challenges 	(5 points x 3 + 10 points = 25 points)
 
 ### 1. (5 points)
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](http://i.imgur.com/qDr8u7m.png?raw=true)
 
 ### 2. (5 points)
 
